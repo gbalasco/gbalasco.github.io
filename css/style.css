@@ -1,0 +1,117 @@
+
+body {
+font-family: 'Quicksand', sanserif;
+}
+
+header img {
+  width:240px;
+  height:240px;
+}
+nav ul {
+  list-style-type:none;
+  text-align:center;
+}
+
+nav ul li{
+  display:inline;
+  padding-right:20px;
+  color:#8AC4AD;
+  text-transform:uppercase;
+}
+
+section h3,
+section h4,
+section p {
+  margin: 0;
+}
+
+#container {
+  border-style:solid;
+  border-color:#AFAFAF;
+  border-width:11px;
+  padding: 20px;
+  position:relative;
+  fixed-width:960px;
+  max-width:960px;
+  overflow:hidden;
+  margin:0 auto;
+}
+
+h2 {
+  color:#8AC4AD;
+  text-transform:uppercase;
+}
+
+}
+#experience{
+  text-align:left;
+}
+
+#top-wrap section:first-child {
+  float: right;
+  text-align: right;
+}
+
+#top-wrap section:last-child {
+  float: left;
+
+}
+
+#outer-wrap, #bottom-wrap {
+  clear: both;
+}
+
+
+#outer-wrap #left-column {
+  float: left;
+}
+
+#outer-wrap #right-column {
+  float: right;
+  text-align:right;
+}
+
+h1 {
+  text-align:center;
+  text-transform:uppercase;
+  text-decoration:none;
+  margin-bottom:5px;
+  color:#8AC4AD;
+}
+
+header h2 {
+  margin-top:0px;
+  margin-bottom:20px;
+  display:block;
+  text-align:center;
+
+}
+
+
+header img {
+
+  display:block;
+  margin:0 auto;
+}
+
+#right-column li {
+  list-style-type: none;
+}
+
+address {
+  font-style:normal;
+}
+
+#hobbies ul li img{
+  vertical-align: middle;
+  margin: 20px;
+  width:100px;
+  height:100px;
+
+}
+
+
+#activities p ul li{
+  display: inline-block;
+
+}

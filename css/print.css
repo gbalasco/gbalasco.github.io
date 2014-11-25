@@ -1,0 +1,116 @@
+
+body {
+font-family: 'Quicksand', sanserif;
+color:black;
+background:transparent;
+font-size:10pt
+}
+
+header img{
+  width:25%;
+  height:25%;
+}
+
+
+nav ul {
+  display:none;
+}
+
+nav ul li{
+  display:inline;
+  padding-right:20px;
+  color:#8AC4AD;
+  text-transform:uppercase;
+}
+
+section h3,
+section h4,
+section p {
+  margin: 0;
+}
+
+#container {
+  border-style:solid;
+  border-color:#000000;
+  border-width:0px;
+  padding: 20px;
+  position:relative;
+  fixed-width:960px;
+  max-width:960px;
+  overflow:hidden;
+  margin:0 auto;
+}
+
+h2 {
+  text-transform:uppercase;
+}
+
+}
+#experience{
+  text-align:left;
+}
+
+#top-wrap section:first-child {
+  float: none;
+  text-align: left;
+}
+
+#top-wrap section:last-child {
+  float: left;
+
+}
+
+#bottom-wrap {
+  clear: both;
+}
+
+#outer-wrap #left-column {
+  float: left;
+}
+
+#outer-wrap #right-column {
+  float: none;
+  text-align:left;
+  clear:both;
+}
+
+h1 {
+  text-align:center;
+  text-transform:uppercase;
+  text-decoration:none;
+  margin-bottom:5px;
+
+}
+
+header h2 {
+  margin-top:0px;
+  margin-bottom:20px;
+  display:block;
+  text-align:center;
+
+}
+
+
+header img {
+
+  display:block;
+  margin:0 auto;
+}
+
+#right-column li {
+  list-style-type: disc;
+}
+
+address {
+  font-style:normal;
+}
+
+#hobbies {
+display:none;
+}
+
+
+#activities p ul li{
+  display: inline-block;
+
+}
