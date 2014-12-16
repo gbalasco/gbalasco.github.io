@@ -3,7 +3,7 @@ body {
 font-family: 'Quicksand', sanserif;
 }
 
-header img {
+#giannabalasco {
   width:240px;
   height:240px;
   display:block;
@@ -11,41 +11,42 @@ header img {
   margin-right:auto;
 }
 
+#banner img {
+  background:no-repeat left 8px;
+  background-size:25px;
+  width:70px
+}
 
-nav ul li{
-  display:inline;
+
+nav {
+  background:no-repeat right 8px;
+  background-size:25px;
   padding-right:20px;
-  color:#FFFFFF;
-  background-color:#A3D6C4;
+  display:inline-block;
   text-transform:uppercase;
-
 }
 
 nav ul {
   list-style-type:none;
-  text-align:center;
-  display:inline;
-  clear:both;
+  display: inline-block;
+  padding-left: 0;
+  margin-left: 20px;
+  background: rgb(164,216,197);
 
 }
 
-#banner img {
-  width:50px;
-  height:50px;
-  display:block;
-  margin: 0 auto;
+nav ul li{
+  display:inline-block;
+  padding: 9px 15px 8px 15px;
+
 }
 
-nav ul li a:link {
-  color:#FFFFFF;
-  text-decoration:none;
-}
-
+nav ul li a,
 nav ul li a:visited {
-  /*color:#3f3f3f;*/
-  color:#FFFFFF;
-
+  color: #fff;
+  text-decoration: none;
 }
+
 
 section h3,
 section h4,
@@ -86,14 +87,8 @@ header h2 {
 }
 
 
-header img {
-
-  display:block;
-  margin:0 auto;
-}
-
 #right-column li {
-  list-style-type: none;
+  list-style-type:none;
 }
 
 address {
@@ -114,6 +109,7 @@ address {
 
 }
 
+
 /* about page styles */
 #about section {
   width:603px;
@@ -122,14 +118,17 @@ address {
 
 }
 
-
-/* home page styles */
-
-#banner {
-  width:20px;
-  height:20px;
-}
-
 #lightGallery {
   list-style-type:none;
+}
+
+#lightGallery img {
+  width:100px;
+  display:inline;
+}
+
+#lightGallery li {
+  display:inline-block;
+  width:120px;
+  padding-left:45px;
 }

@@ -3,20 +3,43 @@ body {
 font-family: 'Quicksand', sanserif;
 }
 
-header img {
+#giannabalasco {
   width:240px;
   height:240px;
 }
+
+#banner img {
+  background:no-repeat left 8px;
+  background-size:25px;
+  width:70px
+}
+
 nav ul {
   list-style-type:none;
-  text-align:center;
+  display: inline-block;
+  padding-left: 0;
+  margin-left: 20px;
+  background: rgb(164,216,197);
+  text-transform:uppercase;
+
 }
 
 nav ul li{
-  display:inline;
-  padding-right:20px;
-  color:#8AC4AD;
-  text-transform:uppercase;
+  display:inline-block;
+  padding: 9px 15px 8px 15px;
+
+}
+
+nav ul li a:link {
+  color:#FFFFFF;
+  text-decoration:none;
+
+}
+
+nav ul li a:visited {
+  /*color:#3f3f3f;*/
+  color:#FFFFFF;
+
 }
 
 section h3,
